@@ -1,0 +1,22 @@
+{% load static %}
+{% if page == 'home' %}
+<section id="content_area">
+			<div class="clearfix wrapper main_content_area">
+
+				<div class="clearfix main_content floatleft">
+
+					<div class="clearfix slider">
+						<ul class="pgwSlider">
+							<li><img src="{% static 'images/thumbs/megamind_07.jpg' %}" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars" data-large-src="images/slides/megamind_07.jpg' %}"/></li>
+							<li><img src="{% static 'images/thumbs/wall-e.jpg' %}" alt="Montréal, QC, Canada" data-large-src="images/slides/wall-e.jpg' %}" data-description="Eiffel Tower and Champ de Mars"/></li>
+							<li>
+								<img src="{% static 'images/thumbs/up-official-trailer-fake.jpg' %}" alt="Shanghai, China" data-large-src="images/slides/up-official-trailer-fake.jpg' %}" data-description="Shanghai ,chaina">
+							</li>
+
+
+						</ul>
+					</div>
+
+
+
+{% endif %}
